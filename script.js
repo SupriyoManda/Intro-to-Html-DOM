@@ -1,8 +1,11 @@
+//EXTERNAL JS FILE
 function myFunction() {
     var a = 4;
     document.getElementById("demo").innerHTML = a*a;
   } 
   
+/*
+//VALIDATION ACTIVITY
 function validate(e) {
     e.preventDefault();
 
@@ -34,6 +37,6 @@ function validate(e) {
 function myFunction() {
     document.getElementById("result").innerHTML = document.getElementById("demo").firstChild.nodeValue;
     document.getElementById("result1").innerHTML = document.getElementById("demo").childNodes[0].nodeValue;
-  } 
+  } */
 
 
